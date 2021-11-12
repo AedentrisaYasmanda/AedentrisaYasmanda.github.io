@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation */
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: rgb(241, 228, 233) !important;
+}
+.navbar{
+    background: black;
+}
+.navbar-toggler
+{
+    border: none !important;
+
+}
+
+.nav-link
+{
+    color: plum !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Home */
+
+#home{
+    color: #efefef;
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
+
+/* #home h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#home h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+} */
+
+#home h3
+{
+    
+    color: thistle !important;
+   
+}
+
+#home p
+{
+    
+    color: thistle !important;
+   
+}
+/* SLider */
+
+
+/* redvelvet */
+#aboutme
+{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: thistle;
+    background-color:black;
+   
+}
+
+
+
+#aboutme h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#aboutme h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.center-block {
+    padding-top: 0%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+.about-content
+{
+    padding-top: 20px;
+    text-align: justify;
+}
+
+a.btn
+{
+    margin: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 2opx;
+}
+a.btn-info{
+    background-color: pink;
+    color: darkorange;
+}
+
+
+
+a.btn:hover
+{
+    background: blanchedalmond;
+    border: navajowhite;
+    color: palevioletred;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s;
+}
+
+/* Skiills */
+
+#skills{
+    background-color:black;!important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skills h2
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#skills h2::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.img-skills img {
+    width: 100px;
+    height: 65px;
+}
+
+.skills
+{
+    margin-top: 40px;
+}
+
+
+/* teams */
+#projects
+{
+    border-image-width: 100%;
+    color: thistle !important;
+    background-image: linear-gradient(rgba(0,0,0,0,8)rgba(0,0,0,0,8)),url(4.jpg);
+    background-color: white !important;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    
+}
+#projects h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+
+#projects h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.projects
+{
+    margin-top: 40px;
+}
+.img-top{
+  
+        width: 200px; /* You can set the dimensions to whatever you want */
+        height: 200px;
+        object-fit: cover;
+}
+#projects .card-body p {
+    text-align: justify;
+}
+
+.text-pro
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+/* CONTACT */
+
+
+
+#contact
+{
+    background: black;!important;;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#contact h1
+{
+    text-align: center;
+    color: thistle !important;
+    padding-bottom: 10px;
+}
+
+#contact h1::after
+{
+    content: '';
+    background: thistle;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.contact
+{
+    margin-top: 40px;
+}
+
+.logo-emp img {
+    width: 50px;
+    height: 50px;
+}
+/* footer */
+#footer
+{
+    background-color:black;
+    color:plum;
+    padding: 12px;
+}
+
