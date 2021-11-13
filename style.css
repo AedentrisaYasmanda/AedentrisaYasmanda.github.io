@@ -240,6 +240,11 @@ a.btn:hover
     color: thistle !important;
     padding-bottom: 10px;
 }
+.stud img{
+    width: 200px;
+    height: 90px;
+
+}
 
 /* CONTACT */
 
