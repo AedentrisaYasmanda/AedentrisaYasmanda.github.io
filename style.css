@@ -155,7 +155,7 @@ a.btn:hover
 /* Skiills */
 
 #skills{
-    background-color:black;!important;
+    background-color:black!important;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -252,7 +252,7 @@ a.btn:hover
 
 #contact
 {
-    background: black;!important;;
+    background: black!important;;
     padding-top: 50px;
     padding-bottom: 50px;
     
